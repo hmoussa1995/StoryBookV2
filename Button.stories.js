@@ -19,7 +19,7 @@ SolidHighContrast.args = {
     name:'Solid-High-Contrast',
     label:'Solid High Contrast',
     size:'large',
-    theme:'dark',
+    theme:'light',
     hasIcon: true,
     disabled:false,
 }
