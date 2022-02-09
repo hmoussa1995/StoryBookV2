@@ -16,7 +16,7 @@ const TemplateLight = args => (
   <div className="main-container">
     <div className="all-solid-high-contrast" style={{marginBottom:40}}>
       <div className="default" style={{display:'flex', alignItems:'center', paddingBottom:20}}>
-      <IsiButton
+      <IsiButton style={{marginRight:10}}
         id="solidButton"
         variant="Solid-High-Contrast"
         label="Solid High Contrast"
@@ -25,7 +25,7 @@ const TemplateLight = args => (
         disabled={false}
         size="large"
       />
-      <IsiButton
+      <IsiButton style={{marginRight:10}}
         id="solidButton"
         variant="Solid-High-Contrast"
         label="Solid High Contrast"
@@ -34,7 +34,7 @@ const TemplateLight = args => (
         disabled={false}
         size="default"
       />
-      <IsiButton
+      <IsiButton style={{marginRight:10}}
         id="solidButton"
         variant="Solid-High-Contrast"
         label="Solid High Contrast"
@@ -54,7 +54,7 @@ const TemplateLight = args => (
       />
       </div>
       <div className="default" style={{display:'flex', alignItems:'center', paddingBottom:20}}>
-      <IsiButton
+      <IsiButton style={{marginRight:10}}
         id="solidButton"
         variant="Solid-Low-Contrast"
         label="Solid Low Contrast"
@@ -63,7 +63,7 @@ const TemplateLight = args => (
         disabled={false}
         size="large"
       />
-      <IsiButton
+      <IsiButton style={{marginRight:10}}
         id="solidButton"
         variant="Solid-Low-Contrast"
         label="Solid Low Contrast"
@@ -72,7 +72,7 @@ const TemplateLight = args => (
         disabled={false}
         size="default"
       />
-      <IsiButton
+      <IsiButton style={{marginRight:10}}
         id="solidButton"
         variant="Solid-Low-Contrast"
         label="Solid Low Contrast"
@@ -92,7 +92,7 @@ const TemplateLight = args => (
       />
       </div>
       <div className="default" style={{display:'flex', alignItems:'center', paddingBottom:20}}>
-      <IsiButton
+      <IsiButton style={{marginRight:10}}
         id="solidButton"
         variant="Outline"
         label="Outline"
@@ -101,7 +101,7 @@ const TemplateLight = args => (
         disabled={false}
         size="large"
       />
-      <IsiButton
+      <IsiButton style={{marginRight:10}}
         id="solidButton"
         variant="Outline"
         label="Outline"
@@ -110,7 +110,7 @@ const TemplateLight = args => (
         disabled={false}
         size="default"
       />
-      <IsiButton
+      <IsiButton style={{marginRight:10}}
         id="solidButton"
         variant="Outline"
         label="Outline"
@@ -130,7 +130,7 @@ const TemplateLight = args => (
       />
       </div>
       <div className="default" style={{display:'flex', alignItems:'center'}}>
-      <IsiButton
+      <IsiButton style={{marginRight:10}}
         id="solidButton"
         variant="Ghost"
         label="Ghost"
@@ -139,7 +139,7 @@ const TemplateLight = args => (
         disabled={false}
         size="large"
       />
-      <IsiButton
+      <IsiButton style={{marginRight:10}}
         id="solidButton"
         variant="Ghost"
         label="Ghost"
@@ -148,7 +148,7 @@ const TemplateLight = args => (
         disabled={false}
         size="default"
       />
-      <IsiButton
+      <IsiButton style={{marginRight:10}}
         id="solidButton"
         variant="Ghost"
         label="Ghost"
@@ -321,7 +321,7 @@ const TemplateDark = args => (
   <div className="main-container">
     <div className="all-solid-high-contrast" style={{marginBottom:40}}>
       <div className="default" style={{display:'flex', alignItems:'center', paddingBottom:20}}>
-      <IsiButton
+      <IsiButton style={{marginRight:10}}
         id="solidButton"
         variant="Solid-High-Contrast"
         label="Solid High Contrast"
@@ -330,7 +330,7 @@ const TemplateDark = args => (
         disabled={false}
         size="large"
       />
-      <IsiButton
+      <IsiButton style={{marginRight:10}}
         id="solidButton"
         variant="Solid-High-Contrast"
         label="Solid High Contrast"
@@ -339,7 +339,7 @@ const TemplateDark = args => (
         disabled={false}
         size="default"
       />
-      <IsiButton
+      <IsiButton style={{marginRight:10}}
         id="solidButton"
         variant="Solid-High-Contrast"
         label="Solid High Contrast"
@@ -348,7 +348,7 @@ const TemplateDark = args => (
         disabled={false}
         size="small"
       />
-      <IsiButton
+      <IsiButton 
         id="solidButton"
         variant="Solid-High-Contrast"
         label="Solid High Contrast"
@@ -359,7 +359,7 @@ const TemplateDark = args => (
       />
       </div>
       <div className="default" style={{display:'flex', alignItems:'center', paddingBottom:20}}>
-      <IsiButton
+      <IsiButton style={{marginRight:10}}
         id="solidButton"
         variant="Solid-Low-Contrast"
         label="Solid Low Contrast"
@@ -368,7 +368,7 @@ const TemplateDark = args => (
         disabled={false}
         size="large"
       />
-      <IsiButton
+      <IsiButton style={{marginRight:10}}
         id="solidButton"
         variant="Solid-Low-Contrast"
         label="Solid Low Contrast"
@@ -377,7 +377,7 @@ const TemplateDark = args => (
         disabled={false}
         size="default"
       />
-      <IsiButton
+      <IsiButton style={{marginRight:10}}
         id="solidButton"
         variant="Solid-Low-Contrast"
         label="Solid Low Contrast"
@@ -386,7 +386,7 @@ const TemplateDark = args => (
         disabled={false}
         size="small"
       />
-      <IsiButton
+      <IsiButton 
         id="solidButton"
         variant="Solid-Low-Contrast"
         label="Solid Low Contrast"
@@ -397,7 +397,7 @@ const TemplateDark = args => (
       />
       </div>
       <div className="default" style={{display:'flex', alignItems:'center', paddingBottom:20}}>
-      <IsiButton
+      <IsiButton style={{marginRight:10}}
         id="solidButton"
         variant="Outline"
         label="Outline"
@@ -406,7 +406,7 @@ const TemplateDark = args => (
         disabled={false}
         size="large"
       />
-      <IsiButton
+      <IsiButton style={{marginRight:10}}
         id="solidButton"
         variant="Outline"
         label="Outline"
@@ -415,7 +415,7 @@ const TemplateDark = args => (
         disabled={false}
         size="default"
       />
-      <IsiButton
+      <IsiButton style={{marginRight:10}}
         id="solidButton"
         variant="Outline"
         label="Outline"
@@ -435,7 +435,7 @@ const TemplateDark = args => (
       />
       </div>
       <div className="default" style={{display:'flex', alignItems:'center'}}>
-      <IsiButton
+      <IsiButton style={{marginRight:10}}
         id="solidButton"
         variant="Ghost"
         label="Ghost"
@@ -444,7 +444,7 @@ const TemplateDark = args => (
         disabled={false}
         size="large"
       />
-      <IsiButton
+      <IsiButton style={{marginRight:10}}
         id="solidButton"
         variant="Ghost"
         label="Ghost"
@@ -453,7 +453,7 @@ const TemplateDark = args => (
         disabled={false}
         size="default"
       />
-      <IsiButton
+      <IsiButton style={{marginRight:10}}
         id="solidButton"
         variant="Ghost"
         label="Ghost"
@@ -475,7 +475,7 @@ const TemplateDark = args => (
     </div>
     <div className="all-solid-low-contrast" style={{marginBottom:40}}>
       <div className="large" style={{display:'flex', marginBottom:20, alignItems:'center'}}>
-      <IsiButton
+      <IsiButton 
         id="solidButton"
         variant="Solid-High-Contrast"
         theme="dark"
