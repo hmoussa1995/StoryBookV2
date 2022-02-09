@@ -9,28 +9,32 @@ export default {
 }
 
 
-const Template = args => <IsiRadioGroup {...args} >
+const TemplateRadioGroup = args => <IsiRadioGroup {...args} >
     <IsiRadio label="Male"/>
     <IsiRadio label="Female"/>
+    <IsiRadio label="Other"/>
 </IsiRadioGroup>;
 
-export const Radio = Template.bind({})
+// remove below code to go back to original
+const TemplateRadio = args => (
+    <>
+    <IsiRadio name="test" label="Male"/>
+    <IsiRadio name="test" label="Female"/>
+    <IsiRadio name="test" label="Other"/>
+    </>
+);
+// till here
+
+export const RadioGroup = TemplateRadioGroup.bind({})
+RadioGroup.args = {
+    name:'test',
+    theme:'light'
+}
+
+// remove below code to go back to original
+export const Radio = TemplateRadio.bind({})
 Radio.args = {
     name:'test',
     theme:'light'
 }
-// export const RadioMain1 = Template.bind({})
-// RadioMain1.args = {
-//     id:'radio1',
-//     label:'Male',
-//     name:'test',
-//     theme:'light'
-// }
-
-// export const RadioMain2 = Template.bind({})
-// RadioMain2.args = {
-//     id:'radio2',
-//     label:'Female',
-//     name:'test',
-//     theme:'light'
-// }
+// till here

@@ -10,9 +10,9 @@ export default {
 
 
 const Template = args => <IsiCheckboxGroup {...args} >
-    <IsiCheckbox label="I Confirm"/>
-    <IsiCheckbox label="I Agree"/>
-    <IsiCheckbox label="I have read the terms and conditions"/>
+    <IsiCheckbox label="Apples"/>
+    <IsiCheckbox label="Oranges"/>
+    <IsiCheckbox label="Bananas"/>
 </IsiCheckboxGroup>;
 
 export const Checkbox = Template.bind({})
