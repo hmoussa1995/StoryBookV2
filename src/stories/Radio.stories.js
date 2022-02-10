@@ -4,7 +4,8 @@ export default {
     title: 'IsiRadio',
     component: IsiRadioGroup,
     argTypes: {
-        theme: {control: { type: "select", options: ["light", "dark"]}}
+        theme: {control: { type: "select", options: ["light", "dark"]}},
+        orientation: {control: { type: "select", options: ["horizontal", "vertical"]}}
     }
 }
 
@@ -28,7 +29,8 @@ const TemplateRadio = args => (
 export const RadioGroup = TemplateRadioGroup.bind({})
 RadioGroup.args = {
     name:'test',
-    theme:'light'
+    theme:'light',
+    orientation:'vertical'
 }
 
 // remove below code to go back to original

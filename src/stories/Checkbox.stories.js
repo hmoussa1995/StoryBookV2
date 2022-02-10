@@ -5,6 +5,7 @@ export default {
     component: IsiCheckboxGroup,
     argTypes: {
         theme: {control: { type: "select", options: ["light", "dark"]}},
+        orientation: {control: { type: "select", options: ["horizontal", "vertical"]}}
     }
 }
 
@@ -18,5 +19,6 @@ const Template = args => <IsiCheckboxGroup {...args} >
 export const Checkbox = Template.bind({})
 Checkbox.args = {
     checked:false,
-    theme:'light'
+    theme:'light',
+    orientation:'vertical'
 }
