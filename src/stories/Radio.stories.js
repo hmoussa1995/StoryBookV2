@@ -5,23 +5,21 @@ export default {
     component: IsiRadioGroup,
     argTypes: {
         theme: {control: { type: "select", options: ["light", "dark"]}},
-        orientation: {control: { type: "select", options: ["horizontal", "vertical"]}}
+        row: {control: { type: "select", options: [true,false]}}
     }
 }
 
 
 const TemplateRadioGroup = args => <IsiRadioGroup {...args} >
-    <IsiRadio label="Male"/>
-    <IsiRadio label="Female"/>
-    <IsiRadio label="Other"/>
+    <IsiRadio label="Male" id="test1"/>
+    <IsiRadio label="Female" id="test2"/>
+    <IsiRadio label="Other" id="test3"/>
 </IsiRadioGroup>;
 
 // remove below code to go back to original
 const TemplateRadio = args => (
     <>
-    <IsiRadio name="test" label="Male"/>
-    <IsiRadio name="test" label="Female"/>
-    <IsiRadio name="test" label="Other"/>
+    <IsiRadio name="qwe" label="Male" id="test1"/>
     </>
 );
 // till here
@@ -30,7 +28,7 @@ export const RadioGroup = TemplateRadioGroup.bind({})
 RadioGroup.args = {
     name:'test',
     theme:'light',
-    orientation:'vertical'
+    row:true
 }
 
 // remove below code to go back to original

@@ -54,10 +54,13 @@
     ]
   },
   "devDependencies": {
-    "@hmoussa1995/react-button-lib-github": "^5.0.46",
+    "@hmoussa1995/react-button-lib-github": "^5.0.81",
+    "@storybook/addon-a11y": "^6.4.12",
     "@storybook/addon-actions": "^6.4.12",
+    "@storybook/addon-docs": "^6.4.12",
     "@storybook/addon-essentials": "^6.4.12",
     "@storybook/addon-links": "^6.4.12",
+    "@storybook/addon-storysource": "^6.4.12",
     "@storybook/builder-webpack5": "^6.4.12",
     "@storybook/manager-webpack5": "^6.4.12",
     "@storybook/node-logger": "^6.4.12",

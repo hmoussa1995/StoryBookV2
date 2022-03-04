@@ -5,20 +5,26 @@ export default {
     component: IsiCheckboxGroup,
     argTypes: {
         theme: {control: { type: "select", options: ["light", "dark"]}},
-        orientation: {control: { type: "select", options: ["horizontal", "vertical"]}}
+        row: {control: { type: "select", options: [true,false]}}
     }
 }
 
 
-const Template = args => <IsiCheckboxGroup {...args} >
-    <IsiCheckbox label="Apples"/>
-    <IsiCheckbox label="Oranges"/>
-    <IsiCheckbox label="Bananas"/>
-</IsiCheckboxGroup>;
+const Template = args => (
+//     <div>
+//   <span> <a href="https://codepen.io/juliangarnier/pen/krNqZO">See the Pen</a></span>
+// <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+        <IsiCheckboxGroup {...args} >
+            <IsiCheckbox label="Apples"/>
+            <IsiCheckbox label="Oranges"/>
+            <IsiCheckbox label="Bananas"/>
+        </IsiCheckboxGroup>
+    // </div>
+)
 
 export const Checkbox = Template.bind({})
 Checkbox.args = {
     checked:false,
     theme:'light',
-    orientation:'vertical'
+    row:true
 }
