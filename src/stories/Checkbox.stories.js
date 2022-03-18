@@ -1,4 +1,4 @@
-import { IsiCheckbox, IsiCheckboxGroup } from '@hmoussa1995/react-button-lib-github';
+import { IsiCheckbox, IsiCheckboxGroup  } from '@hmoussa1995/react-button-lib-github';
 
 export default {
     title: 'IsiCheckbox',
