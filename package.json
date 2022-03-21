@@ -54,7 +54,7 @@
     ]
   },
   "devDependencies": {
-    "@hmoussa1995/react-button-lib-github": "^5.4.4",
+    "@hmoussa1995/react-button-lib-github": "^5.5.1",
     "@storybook/addon-a11y": "^6.4.12",
     "@storybook/addon-actions": "^6.4.12",
     "@storybook/addon-docs": "^6.4.12",
