@@ -1,6 +1,7 @@
 // import Button from "../components/Button";
+import { IsiButton } from '@intuitive/rcl';
 
-import { IsiButton } from '@hmoussa1995/react-button-lib-github';
+//import { IsiButton } from '@hmoussa1995/react-button-lib-github';
 // import { AwesomeButton } from "react-awesome-button";
 export default {
     title: 'AllButtons',

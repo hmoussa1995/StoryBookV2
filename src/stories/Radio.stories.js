@@ -1,5 +1,5 @@
-import { IsiRadio, IsiRadioGroup } from '@hmoussa1995/react-button-lib-github';
-
+//import { IsiRadio, IsiRadioGroup } from '@hmoussa1995/react-button-lib-github';
+import { IsiRadio, IsiRadioGroup } from '@intuitive/rcl';
 export default {
     title: 'IsiRadio',
     component: IsiRadioGroup,

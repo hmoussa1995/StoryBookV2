@@ -1,4 +1,5 @@
-import { IsiCheckbox, IsiCheckboxGroup  } from '@hmoussa1995/react-button-lib-github';
+import { IsiCheckbox, IsiCheckboxGroup  } from '@intuitive/rcl';
+
 
 export default {
     title: 'IsiCheckbox',

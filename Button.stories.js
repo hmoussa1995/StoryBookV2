@@ -1,8 +1,9 @@
 // import Button from "../components/Button";
-import { Button } from '@hmoussa1995/react-button-lib-github';
+//import { Button } from '@hmoussa1995/react-button-lib-github';
+import { IsiButton } from '@intuitive/rcl';
 // import { AwesomeButton } from "react-awesome-button";
 export default {
-    title: 'Button',
+    title: 'IsiButton',
     component: Button,
     argTypes: {
         handleClick: { action: 'handleClick' },
@@ -11,7 +12,7 @@ export default {
     }
 }
 
-const Template = args => <Button {...args} />;
+const Template = args => <IsiButton {...args} />;
 
 export const SolidHighContrast = Template.bind({})
 SolidHighContrast.args = {

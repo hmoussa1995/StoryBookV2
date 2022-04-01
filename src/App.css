@@ -1,3 +1,31 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-SemiBold.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IntuitiveBrown";
+  src: url("../fonts/IntuitiveBrownProWeb-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IntuitiveBrown";
+  src: url("../fonts/IntuitiveBrownProWeb-Bold.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
 .App {
   text-align: center;
 }
